@@ -1,7 +1,9 @@
-#include<stdio.h>
 int main()
 {
-const int a = 10;
-printf("%d",a++);
-return 0;
-}
+    int x;
+    x=10,20,30;
+    printf("%d",x);
+    return 0;
+} 
+output:
+10
