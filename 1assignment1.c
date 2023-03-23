@@ -7,3 +7,6 @@ int main()
 	return 0;
 	
 }
+
+out put:
+105
