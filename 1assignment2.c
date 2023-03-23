@@ -5,3 +5,6 @@ const int a = 10;
 printf("%d",  ++a);
 return 0;
 }
+
+output:
+compilation error,the program is error.
