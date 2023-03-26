@@ -1,0 +1,32 @@
+#include <stdio.h>
+struct person
+{
+   int age;
+   float weight;
+};
+
+int main()
+{
+    struct person *personPtr, person1;
+    personPtr = &person1;   
+
+    printf("Enter age: ");
+    scanf("%d", &personPtr->age);
+
+    printf("Enter weight: ");
+    scanf("%f", &personPtr->weight);
+
+    printf("Displaying:\n");
+    printf("Age: %d\n", personPtr->age);
+    printf("weight: %f", personPtr->weight);
+
+    return 0;
+}
+output:
+
+
+Enter age: 30
+Enter weight: 60
+Displaying:
+Age: 30
+weight: 60.000000
